@@ -1,0 +1,4 @@
+create database game;
+use game;
+create table users (id int auto_increment primary key, username varchar(20), password varchar(20), security_question varchar(255), security_answer varchar(255), high_score int default 0);
+select * from users;
